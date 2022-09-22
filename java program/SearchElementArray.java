@@ -24,15 +24,31 @@ class SearchElementArray {
 
   // Creating a Linear Search function for finding the element is present is the Array or not .
 
-  public static void linearSearch(int arr[], int size, int index) {
+  public static int linearSearch(int arr[], int size, int element) {
     for (int i = 0; i < size; i++) {
-      if (index == arr[i]) {
-        System.out.println(
-          "Element found at " + index + " index in the Array!!"
-        );
-        break;
+      if (arr[i] == element) {
+        return i;
       }
     }
+    return -1;
+  }
+
+  // Creating a Binary Search function for finding the element is present in the Array or not.
+
+  public static int binarySearch(int arr[], int size, int element) {
+    int low = 0;
+    int high = size - 1;
+    int mid = (low + high) / 2;
+    while (low <= high) {
+      if (arr[mid] == element) {
+        return mid;
+      } else if (arr[mid] < element) {
+        low = mid + 1;
+      } else {
+        high = mid - 1;
+      }
+    }
+    return -1;
   }
 
   public static void main(String args[]) {
@@ -46,7 +62,11 @@ class SearchElementArray {
     printArray(arr, size);
     System.out.println("Founding element by using Linear Search Method !!");
     System.out.println("Enter the element you want to find in the Array : ");
-    int index = sc.nextInt();
-    linearSearch(arr, size, index);
+    int element = sc.nextInt();
+    int indexofLinearSearch = linearSearch(arr, size, element);
+    System.out.println("The " + element + " found at " + indexofLinearSearch);
+    System.out.println("Founding element by using Binary Search Method !!");
+    int indexofBinarySearch = binarySearch(arr, size, element);
+    System.out.println("The " + element + " found at " + indexofBinarySearch);
   }
 }
