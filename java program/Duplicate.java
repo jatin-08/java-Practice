@@ -14,14 +14,15 @@ public class Duplicate {
     }
   }
 
-  public static void containsDuplicate(int arr[], int size) {
+  public static boolean containsDuplicate(int arr[], int size) {
     for (int i = 0; i < size; i++) {
       for (int j = i + 1; j < size; j++) {
         if (arr[i] == arr[j]) {
-          System.out.println(arr[j]);
+          return true;
         }
       }
     }
+    return false;
   }
 
   public static void main(String args[]) {
@@ -30,6 +31,10 @@ public class Duplicate {
     int size = sc.nextInt();
     int arr[] = new int[size];
     inputArray(arr, size);
-    containsDuplicate(arr, size);
+    if (containsDuplicate(arr, size)) {
+      System.out.println("True!!");
+    } else {
+      System.out.println("False!!");
+    }
   }
 }
