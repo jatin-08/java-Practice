@@ -18,11 +18,7 @@ public class Duplicate {
     for (int i = 0; i < size; i++) {
       for (int j = i + 1; j < size; j++) {
         if (arr[i] == arr[j]) {
-          System.out.println("True");
-          break;
-        } else {
-          System.out.println("false");
-          break;
+          System.out.println(arr[j]);
         }
       }
     }
