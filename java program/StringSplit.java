@@ -8,9 +8,9 @@ public class StringSplit {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the Sentence : ");
     String str = sc.nextLine();
-    String s[] = str.split("\\s");
+    String s[] = str.split("\\s"); // str.split("\\s") is used to split the string form the white space convert it into substrings.
     for (int i = 0; i < str.length(); i++) {
-      System.out.println(s[i]+"\t"+ s[i].length());
+      System.out.println(s[i] + "\t" + s[i].length());
     }
   }
 }
