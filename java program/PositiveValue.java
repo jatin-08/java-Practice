@@ -1,4 +1,4 @@
-// Print only the Positive number from the array
+// Print only the Positive number from the array.
 
 import java.util.*;
 
