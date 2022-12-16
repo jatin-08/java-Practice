@@ -30,7 +30,7 @@ public class MultiArray {
 
   public static void reverseRow(int arr[][], int rows, int cols) {
     for (int i = 0; i < rows; i++) {
-      int start = 0; // at this steps it reset the start value and initialise it with 0
+      int start = 0; // at this steps it reset the start value and initialise it with 0.And start pointing to cols at 0 index.
       int last = cols - 1; // at this step it reset the last value and initialise it with cols - 1.
       while (start < last) {
         int temp = arr[i][start];
@@ -41,6 +41,8 @@ public class MultiArray {
       }
     }
   }
+
+  // it is the main function.
 
   public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
