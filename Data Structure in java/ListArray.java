@@ -45,5 +45,9 @@ public class ListArray {
     for (int i = 0; i < l2.size(); i++) {
       System.out.println(l2.get(i) + " ");
     }
+
+    // Adding value at first index.
+    l1.add(0, 0);
+    System.out.println(l1);
   }
 }

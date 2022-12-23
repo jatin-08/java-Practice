@@ -14,17 +14,18 @@ public class FirstRepeat {
   }
 
   // Creating a function firstRepeatNumber it give the output of the first repeated number in the Array.
-  public static int firstRepeatNumber(int arr[]) { 
-    // for first number 
+  public static void firstRepeatNumber(int arr[]) {
+    // for first number
     for (int i = 0; i < arr.length; i++) {
-      // for second number  
+      // for second number
       for (int j = i + 1; j < arr.length; j++) {
         if (arr[i] == arr[j]) {
-          return arr[i];
+          System.out.println("The first repeated element: " + arr[i]);
+          System.out.println("At the index: " + i);
+          return;
         }
       }
     }
-    return -1; // if there are all unique number then it return -1.
   }
 
   public static void main(String args[]) {
@@ -34,8 +35,6 @@ public class FirstRepeat {
     int arr[] = new int[size];
     System.out.print("Enter the element of Array : ");
     inputArray(arr, size);
-    System.out.println(
-      "The first repeated Number in the Array is " + firstRepeatNumber(arr)
-    );
+    firstRepeatNumber(arr);
   }
 }
