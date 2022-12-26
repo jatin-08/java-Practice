@@ -19,8 +19,15 @@ public class Fibonacci {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the number of the Series: ");
     int num = sc.nextInt();
+    // System.out.println(
+    //   "The number present on term " + num + " : " + fibonacciSeries(num)
+    // );
     System.out.println(
-      "The number present on term " + num + " : " + fibonacciSeries(num)
+      "Printing the Fibonacci Series form starting to " + num + " : "
     );
+    for (int i = 0; i <= num; i++) {
+      System.out.print(fibonacciSeries(i) + " ");
+    }
+    System.out.println();
   }
 }
