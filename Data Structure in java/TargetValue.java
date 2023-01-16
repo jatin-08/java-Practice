@@ -25,6 +25,48 @@ public class TargetValue {
     return valueExist(arr, index + 1, val);
   }
 
+  // Creating a findIndex -> It return the find index of the element if target present in the array, otherwise it return -1.
+  public static int findIndex(int[] arr, int index, int val) {
+    if (index >= arr.length) { // Base Case
+      return -1;
+    }
+    // Self work
+    if (arr[index] == val) {
+      return index;
+    }
+    // Recursive work
+    return findIndex(arr, index + 1, val);
+  }
+
+  // Creating a findAllIndex -> It return all the index of the element if target present in the array.
+  public static void findAllIndex(int[] arr, int index, int val) {
+    if (index >= arr.length) { // Base Case
+      return;
+    }
+    // Self work
+    if (arr[index] == val) {
+      System.out.print(index + " ");
+    }
+    findAllIndex(arr, index + 1, val);
+  }
+
+  // Creating allIndex -> It return all the index of the element if target present in the array in form of Array List.\
+  public static ArrayList<Integer> allIndex(int[] arr, int index, int val) {
+    // Base Case
+    if (index >= arr.length) {
+      return new ArrayList<Integer>(); // it return empty arraylist.
+    }
+    ArrayList<Integer> ans = new ArrayList<Integer>();
+    // Self Work
+    if (arr[index] == val) {
+      ans.add(index); // it add the index in the ans.
+    }
+    // Recursive work
+    ArrayList<Integer> smallans = allIndex(arr, index + 1, val);
+    ans.addAll(smallans);
+    return ans;
+  }
+
   public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the size of Array: ");
@@ -35,9 +77,16 @@ public class TargetValue {
     System.out.print("Enter the value you want to know it exist or not: ");
     int val = sc.nextInt();
     if (valueExist(arr, 0, val)) {
-      System.out.print("YES! IT EXIST.");
+      System.out.println("YES! IT EXIST.");
     } else {
-      System.out.print("NO! IT DOESNOT EXIST.");
+      System.out.println("NO! IT DOESNOT EXIST.");
+    }
+    System.out.println("The Target found at " + findIndex(arr, 0, val));
+    System.out.print("The Target found at ");
+    findAllIndex(arr, 0, val);
+    ArrayList<Integer> ans = allIndex(arr, 0, val);
+    for (Integer i : ans) {
+      System.out.println("The Target found at " + i);
     }
   }
 }
