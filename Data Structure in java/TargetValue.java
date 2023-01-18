@@ -38,6 +38,19 @@ public class TargetValue {
     return findIndex(arr, index + 1, val);
   }
 
+  // Creating a findLastIndex -> It return the last index of the element if target present in the array, otherwise it return -1.
+  public static int findLastIndex(int[] arr, int index, int val) {
+    if (index >= arr.length) {
+      return -1;
+    }
+    int lastindex = findLastIndex(arr, index + 1, val);
+    if (arr[index] == val && index > lastindex) {
+      return index;
+    } else {
+      return lastindex;
+    }
+  }
+
   // Creating a findAllIndex -> It return all the index of the element if target present in the array.
   public static void findAllIndex(int[] arr, int index, int val) {
     if (index >= arr.length) { // Base Case
@@ -81,12 +94,18 @@ public class TargetValue {
     } else {
       System.out.println("NO! IT DOESNOT EXIST.");
     }
-    System.out.println("The Target found at " + findIndex(arr, 0, val));
-    System.out.print("The Target found at ");
+    System.out.println(
+      "The first index where target found " + findIndex(arr, 0, val)
+    );
+    System.out.print("The all index where target are present ");
     findAllIndex(arr, 0, val);
+    System.out.println();
     ArrayList<Integer> ans = allIndex(arr, 0, val);
     for (Integer i : ans) {
-      System.out.println("The Target found at " + i);
+      System.out.println("The Target found in ArrayList " + i);
     }
+    System.out.println(
+      "The target found at last index " + findLastIndex(arr, 0, val)
+    );
   }
 }
