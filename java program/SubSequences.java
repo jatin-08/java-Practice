@@ -24,14 +24,34 @@ public class SubSequences {
     return ans;
   }
 
+  // Creating a printSubSequence -> It return the subsequence of the given string without using a Array list.
+  public static void printSubSequence(String s, String currAns) {
+    // Base Case
+    if (s.length() == 0) {
+      System.out.print(currAns + " ");
+      return;
+    }
+    char curr = s.charAt(0);
+    String remString = s.substring(1);
+    // add curr
+    printSubSequence(remString, currAns + curr);
+    // do not add curr
+    printSubSequence(remString, currAns);
+  }
+
   public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the String: ");
     String str = sc.nextLine();
-    System.out.print("Printing all its subsequences: ");
+    System.out.println("Printing the Subsequences by using Array list");
     ArrayList<String> ans = getSubSequence(str);
     for (String i : ans) {
       System.out.print(" " + i);
     }
+    System.out.println();
+    System.out.println(
+      "Printing the Subsequences without using the Array List"
+    );
+    printSubSequence(str, "");
   }
 }
