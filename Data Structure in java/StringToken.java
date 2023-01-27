@@ -26,7 +26,7 @@ public class StringToken {
     String s = scan.nextLine();
     int b = s.length();
     if (b > 0) {
-      String su[] = s.split("+[!,?._'@\\s]+"); // [!,?._'@\\s] -> String Puncutation matcher. 
+      String su[] = s.split("[!,?._'@\\s]+"); // [!,?._'@\\s] -> String Puncutation matcher. 
       int a = su.length;
       System.out.println(a);
       for (int i = 0; i < a; i++) System.out.println(su[i]);
