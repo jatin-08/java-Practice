@@ -14,6 +14,15 @@ public class IsPrimeByRecursion {
     } else {
       System.out.println(num + " is a Composite Number!");
     }
+
+    System.out.println(
+      "Checking if the given number is prime or not By using Recursion!"
+    );
+    if (isPrimeByRecursion(num, 2)) {
+      System.out.println(num + " is a Prime number!");
+    } else {
+      System.out.println(num + " is a Composite Number!");
+    }
   }
 
   // Creating an isPrime() -> It return if the given number is prime or not.
@@ -25,5 +34,13 @@ public class IsPrimeByRecursion {
       }
     }
     return flag;
+  }
+
+  // Creating a isPrimeByRecursion() -> It return true if the given number is prime otherwise return false.
+  public static boolean isPrimeByRecursion(int num, int i) {
+    if (num <= 2) return (num == 2) ? true : false;
+    if (num % i == 0) return false;
+    if (i * i > num) return true;
+    return isPrimeByRecursion(num, i + 1);
   }
 }
