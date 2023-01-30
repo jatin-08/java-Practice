@@ -75,7 +75,7 @@ public class OccuerenceOfNumber {
     System.out.println(
       "How many times greater number occur :" + greatestelement(arr, x)
     );
-    int []ans = smallestlargestElement(arr);
-    System.out.println("Sorted array : "+ ans);
+    // int []ans = smallestlargestElement(arr);
+    // System.out.println("Sorted array : "+ ans);
   }
 }
