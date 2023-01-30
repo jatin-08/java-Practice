@@ -1,1 +1,0 @@
-int[] check = valueExist(arr, index + 1, val);

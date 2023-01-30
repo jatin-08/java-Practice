@@ -53,10 +53,10 @@ public class OccuerenceOfNumber {
   }
 
   //  Creating a function smallestlargestElement that gives us output the largest element and the smallest element from the sorted array
-  public static int[] smallestlargestElement(int arr[]) {
-    int[] ans = Arrays.sort(arr);
-    return ans;
-  }
+  // public static int[] smallestlargestElement(int arr[]) {
+  //   // int[] ans = Arrays.sort(arr);
+  //   return ans;
+  // }
 
   public static void main(String args[]) {
     System.out.print("Enter the size of an Array : ");
