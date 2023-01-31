@@ -21,6 +21,7 @@ public class RotateArray {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Reversing the array without using any other array.
@@ -59,22 +60,22 @@ public class RotateArray {
 
   public static void rotateInArray(int[] arr, int rotate) {
     rotate = rotate % arr.length;
-    reverseArray(arr, 0, arr.length - rotate - 1); // Reversing the 1st half of the array 
+    reverseArray(arr, 0, arr.length - rotate - 1); // Reversing the 1st half of the array
     reverseArray(arr, arr.length - rotate, arr.length - 1); // Reversing the 2nd half of the array
     reverseArray(arr, 0, arr.length - 1); // Reversing the whole array
   }
 
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the size of Array : ");
     int size = sc.nextInt();
-    int arr[] = new int[size];
-    System.out.println("Give input");
-    inputArray(arr, size);
     System.out.print(
       "Enter the value how much time you want to rotate the array: "
     );
     int rotate = sc.nextInt();
+    int arr[] = new int[size];
+    System.out.println("Give input");
+    inputArray(arr, size);
     System.out.println("Printing the element of Array!!");
     printArray(arr, size);
     int[] ans = rotateArray(arr, rotate);
@@ -83,5 +84,6 @@ public class RotateArray {
     System.out.print("Array after Rotation [Without using external array]");
     rotateInArray(arr, rotate);
     printArray(arr, size);
+    sc.close();
   }
 }

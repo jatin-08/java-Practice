@@ -22,44 +22,59 @@ public class AdditionMatrix {
     for (int i = 0; i < rows; i++) {
       for (int j = 0; j < cols; j++) {
         arr[i][j] = sc.nextInt();
+        sc.close();
       }
     }
   }
 
   // Creating a function addMatrix for addition of matrix
 
-  public static void addMatrix(int arr1[][], int row1, int col1, int arr2[][], int row2, int col2){
-    if(row1 != row2 || col1 != col2){
-        System.out.print("Wrong input! The addition is not possible!");
-        return;
+  public static void addMatrix(
+    int arr1[][],
+    int row1,
+    int col1,
+    int arr2[][],
+    int row2,
+    int col2
+  ) {
+    if (row1 != row2 || col1 != col2) {
+      System.out.print("Wrong input! The addition is not possible!");
+      return;
     }
 
     int sum[][] = new int[row1][col1];
 
-    for(int i = 0; i< row1; i++){  // row number
-        for(int j= 0; j < col1; j++){ // col number
-         sum[i][j] = arr1[i][j] + arr2[i][j];
-        }
+    for (int i = 0; i < row1; i++) { // row number
+      for (int j = 0; j < col1; j++) { // col number
+        sum[i][j] = arr1[i][j] + arr2[i][j];
+      }
     }
-    printMultiArray(sum, row1, col1);    
+    printMultiArray(sum, row1, col1);
   }
 
-    // Creating a function subMatrix for Substraction of matrix
+  // Creating a function subMatrix for Substraction of matrix
 
-  public static void subMatrix(int arr1[][], int row1, int col1, int arr2[][], int row2, int col2){
-    if(row1 != row2 || col1 != col2){
-        System.out.print("Wrong input! The Subtraction is not possible!");
-        return;
+  public static void subMatrix(
+    int arr1[][],
+    int row1,
+    int col1,
+    int arr2[][],
+    int row2,
+    int col2
+  ) {
+    if (row1 != row2 || col1 != col2) {
+      System.out.print("Wrong input! The Subtraction is not possible!");
+      return;
     }
 
     int sub[][] = new int[row1][col1];
 
-    for(int i = 0; i< row1; i++){  // row number
-        for(int j= 0; j < col1; j++){ // col number
-         sub[i][j] = arr1[i][j] - arr2[i][j];
-        }
+    for (int i = 0; i < row1; i++) { // row number
+      for (int j = 0; j < col1; j++) { // col number
+        sub[i][j] = arr1[i][j] - arr2[i][j];
+      }
     }
-    printMultiArray(sub, row1, col1);    
+    printMultiArray(sub, row1, col1);
   }
 
   public static void main(String args[]) {
@@ -86,5 +101,6 @@ public class AdditionMatrix {
     addMatrix(arr1, row1, col1, arr2, row2, col2);
     System.out.println("Subraction of Matrix: ");
     subMatrix(arr1, row1, col1, arr2, row2, col2);
+    sc.close();
   }
 }

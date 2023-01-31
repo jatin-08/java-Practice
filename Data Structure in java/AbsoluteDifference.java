@@ -11,6 +11,7 @@ public class AbsoluteDifference {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function pairdifference it give output if any pair present in the array having absolute difference is exactly the given number.
@@ -39,5 +40,6 @@ public class AbsoluteDifference {
     System.out.print("Enter the Number x: ");
     int x = sc.nextInt();
     pairdifference(arr, x);
+    sc.close();
   }
 }
