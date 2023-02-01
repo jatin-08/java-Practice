@@ -32,5 +32,6 @@ public class EqualArray {
       }
     }
     System.out.print(ans);
+    sc.close();
   }
 }

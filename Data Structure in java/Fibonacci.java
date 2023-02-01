@@ -29,5 +29,6 @@ public class Fibonacci {
       System.out.print(fibonacciSeries(i) + " ");
     }
     System.out.println();
+    sc.close();
   }
 }

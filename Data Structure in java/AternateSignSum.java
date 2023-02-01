@@ -25,5 +25,6 @@ public class AternateSignSum {
     System.out.print(
       "Sum of natural number from 1st to " + num + " : " + aternateSignSum(num)
     );
+    sc.close();
   }
 }

@@ -19,6 +19,7 @@ public class DecimalToBinary {
     System.out.println(
       "Binary of " + decimalNumber + " is " + findBinary(decimalNumber)
     );
+    sc.close();
   }
 
   // Creating a findBinary() -> It return the Binary number of the given decimal number.

@@ -39,5 +39,6 @@ public class ArmstrongByRecursion {
     } else {
       System.out.println(num + " is an not Armstrong Number!");
     }
+    sc.close();
   }
 }

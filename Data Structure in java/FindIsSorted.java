@@ -10,6 +10,7 @@ public class FindIsSorted {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a findIsSorted -> It return if the given array is sorted or not.
@@ -35,5 +36,6 @@ public class FindIsSorted {
     } else {
       System.out.println("NO! It is not Sorted");
     }
+    sc.close();
   }
 }

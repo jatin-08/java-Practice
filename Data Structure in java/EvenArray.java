@@ -10,6 +10,7 @@ public class EvenArray {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function printEvenArray it gives the Even element of the array.
@@ -31,5 +32,6 @@ public class EvenArray {
     inputArray(arr);
     System.out.print("Printing the Even element of the array: ");
     printEvenArray(arr, size);
+    sc.close();
   }
 }

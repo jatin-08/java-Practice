@@ -12,6 +12,7 @@ public class ArrayByRecursion {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a printArray -> It print the element of the array.
@@ -59,5 +60,6 @@ public class ArrayByRecursion {
     System.out.println(
       "The sum of the element of the Array: " + sumOfElement(arr, 0)
     );
+    sc.close();
   }
 }

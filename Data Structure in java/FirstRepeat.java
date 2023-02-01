@@ -11,6 +11,7 @@ public class FirstRepeat {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function firstRepeatNumber it give the output of the first repeated number in the Array.
@@ -36,5 +37,6 @@ public class FirstRepeat {
     System.out.print("Enter the element of Array : ");
     inputArray(arr, size);
     firstRepeatNumber(arr);
+    sc.close();
   }
 }

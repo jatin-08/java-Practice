@@ -20,5 +20,6 @@ public class FindProductByRecursion {
     System.out.print("Enter the Multiple: ");
     int mult = sc.nextInt();
     System.out.println(num + " X " + mult + " = " + findProduct(num, mult));
+    sc.close();
   }
 }

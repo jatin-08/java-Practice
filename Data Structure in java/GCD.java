@@ -40,5 +40,6 @@ public class GCD {
     System.out.println(
       "Printing the LCM of " + num1 + " and " + num2 + " : " + lcm
     );
+    sc.close();
   }
 }

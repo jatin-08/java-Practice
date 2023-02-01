@@ -32,6 +32,7 @@ public class ArrayManipulation {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   public static void main(String args[]) {
@@ -44,5 +45,6 @@ public class ArrayManipulation {
     System.out.println(
       "The Unique Number from the Array is " + uniqueNumber(arr)
     );
+    sc.close();
   }
 }

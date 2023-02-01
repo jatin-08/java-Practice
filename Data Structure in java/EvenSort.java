@@ -20,6 +20,7 @@ public class EvenSort {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a swapArray function that is used for swaping the element of Array
@@ -66,5 +67,6 @@ public class EvenSort {
     sortByParity(arr);
     System.out.print("Sorted Array: ");
     printArray(arr, size);
+    sc.close();
   }
 }

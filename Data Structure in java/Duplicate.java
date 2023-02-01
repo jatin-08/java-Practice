@@ -12,6 +12,7 @@ public class Duplicate {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   public static boolean containsDuplicate(int arr[], int size) {
@@ -36,5 +37,6 @@ public class Duplicate {
     } else {
       System.out.println("False!!");
     }
+    sc.close();
   }
 }

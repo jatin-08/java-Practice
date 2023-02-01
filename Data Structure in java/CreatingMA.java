@@ -35,5 +35,6 @@ class CreatingMA {
         }
       }
     }
+    sc.close();
   }
 }
