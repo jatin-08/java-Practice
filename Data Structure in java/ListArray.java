@@ -37,7 +37,7 @@ public class ListArray {
     // Checking if the element is exist or not. listname.contain(object) -> it check if the element is present or not
     // boolean ans = l1.contains(Integer.valueOf(3));
     // if you don't specify class, you can put any thing inside list.
-    ArrayList l2 = new ArrayList();
+    ArrayList<String> l2 = new ArrayList<>();
     l2.add("Name:" + " " + "Jatin Yadav");
     l2.add("Rollno:" + " " + 16);
     l2.add("Fee:" + " " + 35000.80);

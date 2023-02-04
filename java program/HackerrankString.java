@@ -26,10 +26,11 @@ public class HackerrankString {
     for (int i = 0; i < A.length() && i < B.length(); i++) {
       if (A.charAt(i) > B.charAt(i)) {
         System.out.println("Yes");
-      } else {
+        break;
+      } else if (A.charAt(i) < B.charAt(i)) {
         System.out.println("No");
+        break;
       }
-      break;
     }
     char c = A.charAt(0);
     String d = Character.toString(c);
