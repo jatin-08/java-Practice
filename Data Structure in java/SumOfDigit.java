@@ -28,5 +28,6 @@ public class SumOfDigit {
     System.out.println(
       "The Count of Digit " + digit + " : " + countOfDigits(digit)
     );
+    sc.close();
   }
 }

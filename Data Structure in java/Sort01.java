@@ -20,6 +20,7 @@ public class Sort01 {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a sortZeroOne function that sort the array in increasing order
@@ -86,5 +87,6 @@ public class Sort01 {
     sortZero2One(arr);
     System.out.print("Sorted Array by 2nd Approach: ");
     printArray(arr, size);
+    sc.close();
   }
 }

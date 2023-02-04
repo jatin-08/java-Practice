@@ -12,6 +12,7 @@ public class UnionArray {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function printArray that print element of the array.
@@ -57,5 +58,6 @@ public class UnionArray {
     System.out.print("Printing the 2nd Array: ");
     printArray(arr2);
     unionArray(arr1, arr2);
+    sc.close();
   }
 }

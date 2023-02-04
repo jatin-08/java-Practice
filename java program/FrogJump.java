@@ -18,6 +18,7 @@ public class FrogJump {
     for (int i = 0; i <= size - 1; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a frogJump -> It return the total minimum cost incurred before the frog reaches Stone N.
@@ -49,5 +50,6 @@ public class FrogJump {
       "The Minimum Cost incurred before the Frog reach to last Stone: " +
       frogJump(height, size, 0)
     );
+    sc.close();
   }
 }

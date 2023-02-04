@@ -21,6 +21,7 @@ public class QuerySum {
     for (int i = 1; i <= size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating pref function for find the prefix sum of the Array without using the External array.
@@ -53,6 +54,7 @@ public class QuerySum {
 
       int ans = result[r] - result[l - 1];
       System.out.println("Sum " + ans);
+      sc.close();
     }
   }
 }

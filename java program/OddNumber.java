@@ -15,8 +15,9 @@ public class OddNumber {
     }
     for (int i = 0; i < arr.length; i++) {
       if (i % 2 != 0) {
-        System.out.println("Odd index value of Array : "+arr[i]);
+        System.out.println("Odd index value of Array : " + arr[i]);
       }
     }
+    sc.close();
   }
 }

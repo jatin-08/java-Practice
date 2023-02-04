@@ -23,5 +23,6 @@ public class DecimalToBinary {
       " = " +
       result
     );
+    sc.close();
   }
 }

@@ -15,5 +15,6 @@ class Power {
       ans = ans * num;
     }
     System.out.print(+num + " raise to the Power " + numpow + " = " + ans);
+    sc.close();
   }
 }

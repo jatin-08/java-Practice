@@ -11,6 +11,7 @@ public class KthSmallestNumber {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function printArray that print element of the array.
@@ -36,5 +37,6 @@ public class KthSmallestNumber {
     Arrays.sort(arr);
     printArray(arr);
     System.out.println("The " + k + " smallest Number: " + arr[k - 1]);
+    sc.close();
   }
 }

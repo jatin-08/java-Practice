@@ -10,6 +10,7 @@ public class TargetValue {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a valueExist -> It return 'yes' if value is present otherwise it return 'No' not present.
@@ -107,5 +108,6 @@ public class TargetValue {
     System.out.println(
       "The target found at last index " + findLastIndex(arr, 0, val)
     );
+    sc.close();
   }
 }

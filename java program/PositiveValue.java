@@ -18,5 +18,6 @@ public class PositiveValue {
         System.out.print(arr[i]);
       }
     }
+    sc.close();
   }
 }

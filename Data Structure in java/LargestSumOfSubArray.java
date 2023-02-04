@@ -10,6 +10,7 @@ public class LargestSumOfSubArray {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a printArray() -> It print the element of the Array.
@@ -48,5 +49,6 @@ public class LargestSumOfSubArray {
     System.out.println(
       "The largest sum of Sub Array: " + findLargestSumOfSubArray(arr, size)
     );
+    sc.close();
   }
 }

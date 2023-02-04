@@ -28,5 +28,6 @@ public class PrintPattern {
     int num = sc.nextInt();
     System.out.print("The Pattern: ");
     printPattern(num, num, true);
+    sc.close();
   }
 }

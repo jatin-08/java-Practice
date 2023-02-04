@@ -10,6 +10,7 @@ public class SelectionSort {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a printArray -> It print the value from the Array.
@@ -54,5 +55,6 @@ public class SelectionSort {
     System.out.print("After Sorting: ");
     selectionSort(arr, size);
     printArray(arr, size);
+    sc.close();
   }
 }

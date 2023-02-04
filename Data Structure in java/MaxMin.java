@@ -50,6 +50,7 @@ public class MaxMin {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   public static void main(String args[]) {
@@ -62,5 +63,6 @@ public class MaxMin {
     Pair minmax = getMinMax(arr, size);
     System.out.printf("\nMinimum element is %d", minmax.min);
     System.out.printf("\nMaximum element is %d", minmax.max);
+    sc.close();
   }
 }

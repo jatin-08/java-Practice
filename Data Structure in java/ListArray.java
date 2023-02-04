@@ -1,6 +1,6 @@
 // Creating a Array list and Using some method of the array list.
 
-import java.util.*;
+import java.util.ArrayList;
 
 public class ListArray {
 

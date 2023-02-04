@@ -10,6 +10,7 @@ public class SubSet {
     for (int i = 0; i <= size - 1; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a subSetSum -> It print the sum of the subset.
@@ -32,5 +33,6 @@ public class SubSet {
     inputArray(arr, size);
     System.out.print("Printing the SubSetSum of the given subset: ");
     subSetSum(arr, size, 0, 0);
+    sc.close();
   }
 }

@@ -10,6 +10,7 @@ public class MinElementArray {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function printArray it gives the all element of the array.
@@ -47,5 +48,6 @@ public class MinElementArray {
     System.out.println(
       "The minimum element of the Array: " + minElementArray(arr)
     );
+    sc.close();
   }
 }

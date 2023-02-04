@@ -14,5 +14,6 @@ public class SumOfStream {
       num = sc.nextInt();
     }
     System.out.print("The sum is " + sum);
+    sc.close();
   }
 }

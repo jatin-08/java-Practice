@@ -22,6 +22,7 @@ public class PrefixSum {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating prefixSum function for find the prefix sum of the Array.
@@ -58,5 +59,6 @@ public class PrefixSum {
     );
     pref(arr, size);
     printArray(arr, size);
+    sc.close();
   }
 }

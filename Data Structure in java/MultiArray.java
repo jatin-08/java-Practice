@@ -24,6 +24,7 @@ public class MultiArray {
         arr[i][j] = sc.nextInt();
       }
     }
+    sc.close();
   }
 
   // Creating a function reverse Multiarray that reverse the rows.
@@ -58,5 +59,6 @@ public class MultiArray {
     System.out.println("Reversing the Row of the 2D array:");
     reverseRow(arr, rows, cols);
     printMultiArray(arr, rows, cols);
+    sc.close();
   }
 }

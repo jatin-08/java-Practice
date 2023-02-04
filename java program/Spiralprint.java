@@ -31,5 +31,6 @@ class Spiralprint {
       }
       System.out.println();
     }
+    sc.close();
   }
 }

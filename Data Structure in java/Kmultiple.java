@@ -26,5 +26,6 @@ public class Kmultiple {
     int k = sc.nextInt();
     System.out.print("1st to " + k + " multiple of " + num + " : ");
     kthMultiple(num, k);
+    sc.close();
   }
 }

@@ -20,6 +20,7 @@ public class SquareSort {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a swapArray function that is used for swaping the element of Array
@@ -65,5 +66,6 @@ public class SquareSort {
     System.out.print("Sorted Array: ");
     swapArray(ans, 0, size - 1);
     printArray(ans, size);
+    sc.close();
   }
 }

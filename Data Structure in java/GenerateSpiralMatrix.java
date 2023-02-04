@@ -24,6 +24,7 @@ public class GenerateSpiralMatrix {
         arr[i][j] = sc.nextInt();
       }
     }
+    sc.close();
   }
 
   // Creating a function sprialMatrix that print the matrix in the sprial order.
@@ -68,5 +69,6 @@ public class GenerateSpiralMatrix {
     int num = sc.nextInt();
     int ans[][] = generateSprialMatrix(num);
     printMultiArray(ans);
+    sc.close();
   }
 }

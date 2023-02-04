@@ -24,6 +24,7 @@ public class SprialMatrix {
         arr[i][j] = sc.nextInt();
       }
     }
+    sc.close();
   }
 
   // Creating a function sprialMatrix that print the matrix in the sprial order.
@@ -77,5 +78,6 @@ public class SprialMatrix {
     printMultiArray(arr);
     System.out.print("Spiral order Matrix: ");
     sprialMatrix(arr, rows, cols);
+    sc.close();
   }
 }

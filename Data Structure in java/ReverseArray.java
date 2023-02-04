@@ -20,6 +20,7 @@ class ReverseArray {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function for reversing the element of Array
@@ -47,5 +48,6 @@ class ReverseArray {
     System.out.println("Printing the element of Array in the reverse order!!");
     reverseArray(arr, 0, size - 1);
     printArray(arr, size);
+    sc.close();
   }
 }

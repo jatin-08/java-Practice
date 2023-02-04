@@ -4,7 +4,7 @@ import java.util.*;
 
 public class RemoveOccurrances {
 
-  // Creating a removeOccurrance -> It remove all occurrance of the that character from the given string. 
+  // Creating a removeOccurrance -> It remove all occurrance of the that character from the given string.
   // Time complexity -> T(n) = O(n^2)
   public static String removeOccurrance(String str, int index, char ch) {
     if (index == str.length()) { // Base Case
@@ -52,5 +52,6 @@ public class RemoveOccurrances {
       "After removing the given character from 2nd Approach: " +
       remove2Occurrance(str, ch)
     );
+    sc.close();
   }
 }

@@ -24,6 +24,7 @@ public class RectangleSum {
         arr[i][j] = sc.nextInt();
       }
     }
+    sc.close();
   }
 
   // Creating a function findPrefixSum in 2D Array.
@@ -124,5 +125,6 @@ public class RectangleSum {
     System.out.println(
       "Rectangle Sum from 3rd approach: " + rectangle3Sum(arr, l1, r1, l2, r2)
     );
+    sc.close();
   }
 }

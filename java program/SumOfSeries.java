@@ -17,5 +17,6 @@ class SumOfSeries {
       }
     }
     System.out.print("The sum of series = " + ans);
+    sc.close();
   }
 }

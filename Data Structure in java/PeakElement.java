@@ -11,6 +11,7 @@ public class PeakElement {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function printArray it gives the all element of the array.
@@ -51,5 +52,6 @@ public class PeakElement {
     System.out.println("Printing the element of the array: ");
     printArray(arr);
     peakElementArray(arr);
+    sc.close();
   }
 }

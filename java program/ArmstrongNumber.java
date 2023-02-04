@@ -50,5 +50,6 @@ class ArmstrongNumber {
     } else {
       System.out.println(n + " The given Number is not a Armstrong Number!!");
     }
+    sc.close();
   }
 }

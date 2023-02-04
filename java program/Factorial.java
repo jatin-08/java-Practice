@@ -27,5 +27,6 @@ class Factorial {
       " By using Recursion: " +
       factorialByRecursion(num)
     );
+    sc.close();
   }
 }

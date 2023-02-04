@@ -10,6 +10,7 @@ class PalimdromeNumber {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a isPalindrome -> It return true if palindrome number exit or other wise return false.
@@ -49,5 +50,6 @@ class PalimdromeNumber {
       "If palindrome exist(TRUE) or Otherwise (FALSE): " +
       isPalindrome(arr, 0, size - 1)
     );
+    sc.close();
   }
 }

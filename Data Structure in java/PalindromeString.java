@@ -47,5 +47,6 @@ public class PalindromeString {
       "by 2nd Approach Checking if the given string is Palindrome or not: " +
       check2PalindromeString(orgStr, 0, orgStr.length() - 1)
     );
+    sc.close();
   }
 }

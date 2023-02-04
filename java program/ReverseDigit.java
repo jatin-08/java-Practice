@@ -15,5 +15,6 @@ class ReverseDigit {
       num = num / 10;
     }
     System.out.print("The Reverse of " + original_num + " = " + reversedigit);
+    sc.close();
   }
 }

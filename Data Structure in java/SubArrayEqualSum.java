@@ -20,6 +20,7 @@ public class SubArrayEqualSum {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function findArraySum that gives the sum of the array.
@@ -59,5 +60,6 @@ public class SubArrayEqualSum {
     System.out.print(
       "Equal partition possible : " + equalSumPartition(arr, size)
     );
+    sc.close();
   }
 }

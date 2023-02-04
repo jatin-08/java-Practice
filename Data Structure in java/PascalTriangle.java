@@ -46,5 +46,6 @@ public class PascalTriangle {
     int num = sc.nextInt();
     int ans[][] = pascalTriangle(num);
     printMultiArray(ans);
+    sc.close();
   }
 }

@@ -53,5 +53,6 @@ public class SubSequences {
       "Printing the Subsequences without using the Array List"
     );
     printSubSequence(str, "");
+    sc.close();
   }
 }

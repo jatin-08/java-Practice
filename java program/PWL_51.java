@@ -11,6 +11,7 @@ public class PWL_51 {
     if (num < 0) {
       num = num * -1;
     }
-      System.out.print("The absolute value is : " + num);
+    System.out.print("The absolute value is : " + num);
+    sc.close();
   }
 }

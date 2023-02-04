@@ -16,6 +16,7 @@ public class InsertionSort {
     System.out.print("After Sorting: ");
     insertionSort(arr, size);
     printArray(arr, size);
+    sc.close();
   }
 
   // Creating an inputArray() -> It takes input from the user.
@@ -25,6 +26,7 @@ public class InsertionSort {
       arr[i] = sc.nextInt();
     }
     System.out.println();
+    sc.close();
   }
 
   // Creating a printArray() -> It print the element of the Array.

@@ -20,6 +20,7 @@ class SearchElementArray {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a Linear Search function for finding the element is present is the Array or not .
@@ -68,5 +69,6 @@ class SearchElementArray {
     System.out.println("Founding element by using Binary Search Method !!");
     int indexofBinarySearch = binarySearch(arr, size, element);
     System.out.println("The " + element + " found at " + indexofBinarySearch);
+    sc.close();
   }
 }

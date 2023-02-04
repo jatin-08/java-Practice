@@ -1,6 +1,5 @@
 // Printing the String in the Reverse order
 
-import java.io.*;
 import java.util.*;
 
 public class ReverseString {
@@ -29,12 +28,13 @@ public class ReverseString {
     input.reverse();
     System.out.println(input);
 
-   // Comparing the String is equal after reversing it.
+    // Comparing the String is equal after reversing it.
 
     if (A.equals(reverse)) {
       System.out.println("Yes");
     } else {
       System.out.println("No");
     }
+    sc.close();
   }
 }

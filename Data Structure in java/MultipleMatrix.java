@@ -24,29 +24,37 @@ public class MultipleMatrix {
         arr[i][j] = sc.nextInt();
       }
     }
+    sc.close();
   }
 
-    // Creating a function multipleMatrix for Multiplication of matrix
+  // Creating a function multipleMatrix for Multiplication of matrix
 
-  public static void multiMatrix(int arr1[][], int row1, int col1, int arr2[][], int row2, int col2){
-    if(col1 != row2){
-        System.out.print("Wrong Deminsion! The Multiplication is not possible!");
-        return;
+  public static void multiMatrix(
+    int arr1[][],
+    int row1,
+    int col1,
+    int arr2[][],
+    int row2,
+    int col2
+  ) {
+    if (col1 != row2) {
+      System.out.print("Wrong Deminsion! The Multiplication is not possible!");
+      return;
     }
 
     int mul[][] = new int[row1][col2];
 
-    for(int i = 0; i < row1; i++){  // row number
-        for(int j= 0; j < col2; j++){ // col number
-         for(int k = 0; k < row2; k++){ // for calculating the multiplication
-            mul[i][j] += arr1[i][k] * arr2[k][j];
-         }
+    for (int i = 0; i < row1; i++) { // row number
+      for (int j = 0; j < col2; j++) { // col number
+        for (int k = 0; k < row2; k++) { // for calculating the multiplication
+          mul[i][j] += arr1[i][k] * arr2[k][j];
         }
+      }
     }
-    printMultiArray(mul, row1, col2);    
+    printMultiArray(mul, row1, col2);
   }
 
-    public static void main(String args[]) {
+  public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the Rows For 1st Matrix : ");
     int row1 = sc.nextInt();
@@ -68,5 +76,6 @@ public class MultipleMatrix {
     printMultiArray(arr2, row2, col2);
     System.out.println("Multiplication of 2 Matrix: ");
     multiMatrix(arr1, row1, col1, arr2, row2, col2);
+    sc.close();
   }
 }

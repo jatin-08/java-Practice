@@ -24,6 +24,7 @@ public class Transpose {
         arr[i][j] = sc.nextInt();
       }
     }
+    sc.close();
   }
 
   //  Creating a function transposeMatrix that transpose our given matrix.
@@ -42,7 +43,6 @@ public class Transpose {
         
         */
       }
-
       // System.out.println();
 
     }
@@ -64,5 +64,6 @@ public class Transpose {
     System.out.println("Tranpose of Matrix: ");
     transposeMatrix(arr, rows, cols);
     printMultiArray(arr);
+    sc.close();
   }
 }

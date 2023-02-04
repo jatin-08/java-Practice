@@ -9,11 +9,11 @@ class IntToString {
     System.out.print("Enter the Number : ");
     int n = sc.nextInt();
     String s = String.valueOf(n);
-    if(n == Integer.parseInt(s)){
-    System.out.println("Good Job");
+    if (n == Integer.parseInt(s)) {
+      System.out.println("Good Job");
+    } else {
+      System.out.println("Wrong answer");
     }
-    else{
-        System.out.println("Wrong answer");
-    }
+    sc.close();
   }
 }

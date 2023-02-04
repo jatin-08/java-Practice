@@ -11,6 +11,7 @@ public class SecondLargest {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function MaxNumber that gives output the largest Number in the Array.
@@ -47,5 +48,6 @@ public class SecondLargest {
     System.out.println(
       "The Second Largest Number of the Array is " + secondLargest(arr)
     );
+    sc.close();
   }
 }

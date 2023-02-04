@@ -9,6 +9,7 @@ public class PositiveNegativeArray {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function printArray for Printing the element of the array.
@@ -52,5 +53,6 @@ public class PositiveNegativeArray {
     System.out.println("1st positive element then -ve number: ");
     int ans[] = positiveNegativeArray(arr);
     printArray(ans);
+    sc.close();
   }
 }

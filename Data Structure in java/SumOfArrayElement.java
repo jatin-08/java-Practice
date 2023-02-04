@@ -20,6 +20,7 @@ class SumOfArrayElement {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function for finding sum of element of Array
@@ -43,5 +44,6 @@ class SumOfArrayElement {
     printArray(arr, size);
     System.out.println("Printing the sum of Array element");
     sumofarray(arr, size);
+    sc.close();
   }
 }

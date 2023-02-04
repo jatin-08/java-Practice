@@ -11,7 +11,6 @@ Sample Output 0
 
 */
 
-import java.io.*;
 import java.util.*;
 
 public class HackerrankString {
@@ -22,7 +21,7 @@ public class HackerrankString {
     String B = sc.next();
 
     /* Enter your code here. Print output to STDOUT. */
-    
+
     System.out.println(A.length() + B.length());
     for (int i = 0; i < A.length() && i < B.length(); i++) {
       if (A.charAt(i) > B.charAt(i)) {
@@ -39,5 +38,6 @@ public class HackerrankString {
     System.out.println(
       d.toUpperCase() + A.substring(1) + " " + f.toUpperCase() + B.substring(1)
     );
+    sc.close();
   }
 }

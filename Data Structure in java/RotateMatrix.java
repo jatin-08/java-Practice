@@ -24,6 +24,7 @@ public class RotateMatrix {
         arr[i][j] = sc.nextInt();
       }
     }
+    sc.close();
   }
 
   //  Creating a function transposeMatrix that transpose our given matrix.
@@ -87,5 +88,6 @@ public class RotateMatrix {
     System.out.println("Rotated Matrix about 90 degree: ");
     rotateMatrix(arr, rows, cols);
     printMultiArray(arr);
+    sc.close();
   }
 }

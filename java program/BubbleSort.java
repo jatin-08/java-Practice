@@ -10,6 +10,7 @@ public class BubbleSort {
     for (int i = 0; i < size; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a printArray -> It print the value from the Array.
@@ -55,5 +56,6 @@ public class BubbleSort {
     System.out.print("After Sorting: ");
     bubbleSort(arr, size);
     printArray(arr, size);
+    sc.close();
   }
 }

@@ -10,6 +10,7 @@ public class InsertAtFirst {
     for (int i = 0; i < n; i++) {
       number.add(sc.nextInt());
     }
+    sc.close();
   }
 
   // Creating a function printArrayList that print element of the ArrayList.
@@ -47,5 +48,6 @@ public class InsertAtFirst {
     Collections.swap(number, i, j);
     System.out.print("After Swap : ");
     printArrayList(number);
+    sc.close();
   }
 }

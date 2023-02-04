@@ -23,6 +23,7 @@ public class IsPrimeByRecursion {
     } else {
       System.out.println(num + " is a Composite Number!");
     }
+    sc.close();
   }
 
   // Creating an isPrime() -> It return if the given number is prime or not.

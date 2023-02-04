@@ -23,5 +23,6 @@ public class MinElement {
         break;
       }
     }
+    sc.close();
   }
 }

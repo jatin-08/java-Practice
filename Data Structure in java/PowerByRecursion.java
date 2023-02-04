@@ -46,5 +46,6 @@ public class PowerByRecursion {
       " : " +
       +power2OfNumber(num, po)
     );
+    sc.close();
   }
 }

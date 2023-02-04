@@ -31,5 +31,6 @@ public class PositiveNegative {
     for (int i = 0; i < arr.length; i++) {
       System.out.print(ans[i] + "  ");
     }
+    sc.close();
   }
 }

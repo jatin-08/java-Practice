@@ -10,6 +10,7 @@ public class OddString {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextLine();
     }
+    sc.close();
   }
 
   // Creating a function printPositiveArray it gives the positive element of the array.
@@ -30,5 +31,6 @@ public class OddString {
     inputArray(arr);
     System.out.print("Printing the Odd String of the array: ");
     printOddString(arr);
+    sc.close();
   }
 }

@@ -15,5 +15,6 @@ class CountDigit {
       numdigit++;
     }
     System.out.print("Number of digit in " + original_num + " = " + numdigit);
+    sc.close();
   }
 }

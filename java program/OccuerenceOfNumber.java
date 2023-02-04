@@ -10,6 +10,7 @@ public class OccuerenceOfNumber {
     for (int i = 0; i < arr.length; i++) {
       arr[i] = sc.nextInt();
     }
+    sc.close();
   }
 
   // Creating a function printArray for printing the element of an Array.
@@ -77,5 +78,6 @@ public class OccuerenceOfNumber {
     );
     // int []ans = smallestlargestElement(arr);
     // System.out.println("Sorted array : "+ ans);
+    sc.close();
   }
 }
