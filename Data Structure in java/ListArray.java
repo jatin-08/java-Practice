@@ -35,7 +35,7 @@ public class ListArray {
     l1.remove(Integer.valueOf(5));
     System.out.println(l1);
     // Checking if the element is exist or not. listname.contain(object) -> it check if the element is present or not
-    boolean ans = l1.contains(Integer.valueOf(3));
+    // boolean ans = l1.contains(Integer.valueOf(3));
     // if you don't specify class, you can put any thing inside list.
     ArrayList l2 = new ArrayList();
     l2.add("Name:" + " " + "Jatin Yadav");

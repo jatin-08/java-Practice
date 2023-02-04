@@ -44,7 +44,7 @@ public class InsertAtFirst {
     System.out.print("Enter the indices to swap the element: ");
     int i = sc.nextInt();
     int j = sc.nextInt();
-    int temp = number.get(i);
+    // int temp = number.get(i);
     Collections.swap(number, i, j);
     System.out.print("After Swap : ");
     printArrayList(number);
