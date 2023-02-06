@@ -8,7 +8,7 @@ output: 111
 
 import java.util.*;
 
-public class DecimalToBinary {
+public class DecimalToBinaryRecurison {
 
   //   static int level = -1;
 

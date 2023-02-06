@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class SumOfDigit {
+public class SumOfDigitByRecursion {
 
   // Creating a function sumOfDigit -> It gives the sum of the Given Digit.
   public static int sumOfDigit(int digit) {

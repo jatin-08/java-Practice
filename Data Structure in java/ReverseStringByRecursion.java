@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class ReverseString {
+public class ReverseStringByRecursion {
 
   // Creating a reverseString -> It return the String in the reverse order.
   // Time complexity -> T(n) = O(n^2)
