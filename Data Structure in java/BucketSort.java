@@ -6,11 +6,11 @@ public class BucketSort {
 
   // Creating an inputArray() -> It takes input from the user.
   public static void inputArray(int[] arr, int size) {
-    Scanner sc = new Scanner(System.in);
-    for (int i = 0; i < size; i++) {
-      arr[i] = sc.nextInt();
+    try (Scanner sc = new Scanner(System.in)) {
+      for (int i = 0; i < size; i++) {
+        arr[i] = sc.nextInt();
+      }
     }
-    sc.close();
   }
 
   // Creating a printArray() -> It print the element of the Array.
@@ -26,12 +26,12 @@ public class BucketSort {
     ArrayList<Integer>[] buckets = new ArrayList[size];
     // Creating empty buckets
     for (int i = 0; i < size; i++) {
-      buckets[i] = new ArrayList<Integer>(size);
+      buckets[i] = new ArrayList<>(size);
     }
 
     // Add element into our buckets
     for (int i = 0; i < size; i++) {
-      int bucketIdx = arr[i] % 10;
+      int bucketIdx = arr[i] % size;
       buckets[bucketIdx].add(arr[i]);
     }
 
@@ -51,17 +51,17 @@ public class BucketSort {
   }
 
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Enter the Size of the Array: ");
-    int size = sc.nextInt();
-    int[] arr = new int[size];
-    System.out.print("Enter the element of the array: ");
-    inputArray(arr, size);
-    System.out.print("Printing the element of the Array Before Sorting: ");
-    printArray(arr, size);
-    bucketSort(arr, size);
-    System.out.print("Printing the element of the Array After Sorting: ");
-    printArray(arr, size);
-    sc.close();
+    try (Scanner sc = new Scanner(System.in)) {
+      System.out.print("Enter the Size of the Array: ");
+      int size = sc.nextInt();
+      int[] arr = new int[size];
+      System.out.print("Enter the elements of the array: ");
+      inputArray(arr, size);
+      System.out.print("Printing the elements of the Array Before Sorting: ");
+      printArray(arr, size);
+      bucketSort(arr, size);
+      System.out.print("Printing the elements of the Array After Sorting: ");
+      printArray(arr, size);
+    }
   }
 }
