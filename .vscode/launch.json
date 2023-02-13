@@ -1,0 +1,833 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AbsoluteDifference",
+            "request": "launch",
+            "mainClass": "AbsoluteDifference",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdditionMatrix",
+            "request": "launch",
+            "mainClass": "AdditionMatrix",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArmstrongByRecursion",
+            "request": "launch",
+            "mainClass": "ArmstrongByRecursion",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmstrongNumber",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayByRecursion",
+            "request": "launch",
+            "mainClass": "ArrayByRecursion",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayManipulation",
+            "request": "launch",
+            "mainClass": "ArrayManipulation",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch AternateSignSum",
+            "request": "launch",
+            "mainClass": "AternateSignSum",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bigint",
+            "request": "launch",
+            "mainClass": "Bigint",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryToDecimal",
+            "request": "launch",
+            "mainClass": "BinaryToDecimal",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch BucketSort",
+            "request": "launch",
+            "mainClass": "BucketSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calendar1",
+            "request": "launch",
+            "mainClass": "Calendar1",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Checkprime",
+            "request": "launch",
+            "mainClass": "Checkprime",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContainDuplicate",
+            "request": "launch",
+            "mainClass": "ContainDuplicate",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountDigit",
+            "request": "launch",
+            "mainClass": "CountDigit",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountSort",
+            "request": "launch",
+            "mainClass": "CountSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreatingMA",
+            "request": "launch",
+            "mainClass": "CreatingMA",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Currency",
+            "request": "launch",
+            "mainClass": "Currency",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecimalToBinary",
+            "request": "launch",
+            "mainClass": "DecimalToBinary",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecimalToBinaryRecurison",
+            "request": "launch",
+            "mainClass": "DecimalToBinaryRecurison",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Duplicate",
+            "request": "launch",
+            "mainClass": "Duplicate",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch EqualArray",
+            "request": "launch",
+            "mainClass": "EqualArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenArray",
+            "request": "launch",
+            "mainClass": "EvenArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenSort",
+            "request": "launch",
+            "mainClass": "EvenSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindElementInRotatedArray",
+            "request": "launch",
+            "mainClass": "FindElementInRotatedArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindIsSorted",
+            "request": "launch",
+            "mainClass": "FindIsSorted",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindProductByRecursion",
+            "request": "launch",
+            "mainClass": "FindProductByRecursion",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindRotatedIndex",
+            "request": "launch",
+            "mainClass": "FindRotatedIndex",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindSquareRoot",
+            "request": "launch",
+            "mainClass": "FindSquareRoot",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstOccurrance",
+            "request": "launch",
+            "mainClass": "FirstOccurrance",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstRepeat",
+            "request": "launch",
+            "mainClass": "FirstRepeat",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForeachLoop",
+            "request": "launch",
+            "mainClass": "ForeachLoop",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch FrogJump",
+            "request": "launch",
+            "mainClass": "FrogJump",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch GCD",
+            "request": "launch",
+            "mainClass": "GCD",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateSpiralMatrix",
+            "request": "launch",
+            "mainClass": "GenerateSpiralMatrix",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch HackerrankString",
+            "request": "launch",
+            "mainClass": "HackerrankString",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch HollowRectangle",
+            "request": "launch",
+            "mainClass": "HollowRectangle",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertAtFirst",
+            "request": "launch",
+            "mainClass": "InsertAtFirst",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntToString",
+            "request": "launch",
+            "mainClass": "IntToString",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsPrimeByRecursion",
+            "request": "launch",
+            "mainClass": "IsPrimeByRecursion",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch KeyPadCombination",
+            "request": "launch",
+            "mainClass": "KeyPadCombination",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kmultiple",
+            "request": "launch",
+            "mainClass": "Kmultiple",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthSmallestNumber",
+            "request": "launch",
+            "mainClass": "KthSmallestNumber",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestSumOfSubArray",
+            "request": "launch",
+            "mainClass": "LargestSumOfSubArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListArray",
+            "request": "launch",
+            "mainClass": "ListArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxMin",
+            "request": "launch",
+            "mainClass": "MaxMin",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinElement",
+            "request": "launch",
+            "mainClass": "MinElement",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinElementArray",
+            "request": "launch",
+            "mainClass": "MinElementArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiArray",
+            "request": "launch",
+            "mainClass": "MultiArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultipleMatrix",
+            "request": "launch",
+            "mainClass": "MultipleMatrix",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch OccuerenceOfNumber",
+            "request": "launch",
+            "mainClass": "OccuerenceOfNumber",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddNumber",
+            "request": "launch",
+            "mainClass": "OddNumber",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddString",
+            "request": "launch",
+            "mainClass": "OddString",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PWL_5",
+            "request": "launch",
+            "mainClass": "PWL_5",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PWL_51",
+            "request": "launch",
+            "mainClass": "PWL_51",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalimdromeNumber",
+            "request": "launch",
+            "mainClass": "PalimdromeNumber",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeString",
+            "request": "launch",
+            "mainClass": "PalindromeString",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PascalTriangle",
+            "request": "launch",
+            "mainClass": "PascalTriangle",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PeakElement",
+            "request": "launch",
+            "mainClass": "PeakElement",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PositiveArray",
+            "request": "launch",
+            "mainClass": "PositiveArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PositiveNegative",
+            "request": "launch",
+            "mainClass": "PositiveNegative",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PositiveNegativeArray",
+            "request": "launch",
+            "mainClass": "PositiveNegativeArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PositiveValue",
+            "request": "launch",
+            "mainClass": "PositiveValue",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Power",
+            "request": "launch",
+            "mainClass": "Power",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerByRecursion",
+            "request": "launch",
+            "mainClass": "PowerByRecursion",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrefixSum",
+            "request": "launch",
+            "mainClass": "PrefixSum",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintPattern",
+            "request": "launch",
+            "mainClass": "PrintPattern",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pyramid",
+            "request": "launch",
+            "mainClass": "Pyramid",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueryArray",
+            "request": "launch",
+            "mainClass": "QueryArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuerySum",
+            "request": "launch",
+            "mainClass": "QuerySum",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch RadixSort",
+            "request": "launch",
+            "mainClass": "RadixSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch RectangleSum",
+            "request": "launch",
+            "mainClass": "RectangleSum",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveOccurrances",
+            "request": "launch",
+            "mainClass": "RemoveOccurrances",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArrayList",
+            "request": "launch",
+            "mainClass": "ReverseArrayList",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseDigit",
+            "request": "launch",
+            "mainClass": "ReverseDigit",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseStringByRecursion",
+            "request": "launch",
+            "mainClass": "ReverseStringByRecursion",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateArray",
+            "request": "launch",
+            "mainClass": "RotateArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateMatrix",
+            "request": "launch",
+            "mainClass": "RotateMatrix",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchElementArray",
+            "request": "launch",
+            "mainClass": "SearchElementArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInRotatedArray",
+            "request": "launch",
+            "mainClass": "SearchInRotatedArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondLargest",
+            "request": "launch",
+            "mainClass": "SecondLargest",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeparatePositiveNegative",
+            "request": "launch",
+            "mainClass": "SeparatePositiveNegative",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sort01",
+            "request": "launch",
+            "mainClass": "Sort01",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sort012",
+            "request": "launch",
+            "mainClass": "Sort012",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortArray",
+            "request": "launch",
+            "mainClass": "SortArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortArrayList",
+            "request": "launch",
+            "mainClass": "SortArrayList",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Spiralprint",
+            "request": "launch",
+            "mainClass": "Spiralprint",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SprialMatrix",
+            "request": "launch",
+            "mainClass": "SprialMatrix",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquareSort",
+            "request": "launch",
+            "mainClass": "SquareSort",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Star",
+            "request": "launch",
+            "mainClass": "Star",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringSplit",
+            "request": "launch",
+            "mainClass": "StringSplit",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringToken",
+            "request": "launch",
+            "mainClass": "StringToken",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArrayEqualSum",
+            "request": "launch",
+            "mainClass": "SubArrayEqualSum",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubSequences",
+            "request": "launch",
+            "mainClass": "SubSequences",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubSet",
+            "request": "launch",
+            "mainClass": "SubSet",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SuffixSum",
+            "request": "launch",
+            "mainClass": "SuffixSum",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfArrayElement",
+            "request": "launch",
+            "mainClass": "SumOfArrayElement",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfDigit",
+            "request": "launch",
+            "mainClass": "SumOfDigit",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfDigitByRecursion",
+            "request": "launch",
+            "mainClass": "SumOfDigitByRecursion",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfSeries",
+            "request": "launch",
+            "mainClass": "SumOfSeries",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfStream",
+            "request": "launch",
+            "mainClass": "SumOfStream",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sumpair",
+            "request": "launch",
+            "mainClass": "Sumpair",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwappingString",
+            "request": "launch",
+            "mainClass": "SwappingString",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch TargetValue",
+            "request": "launch",
+            "mainClass": "TargetValue",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch Transpose",
+            "request": "launch",
+            "mainClass": "Transpose",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnionArray",
+            "request": "launch",
+            "mainClass": "UnionArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Launch creatingarray",
+            "request": "launch",
+            "mainClass": "creatingarray",
+            "projectName": "Java Practice_7740b988"
+        }
+    ]
+}
