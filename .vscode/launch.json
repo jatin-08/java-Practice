@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LastOccurance",
+            "request": "launch",
+            "mainClass": "LastOccurance",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
