@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Anagram",
+            "request": "launch",
+            "mainClass": "Anagram",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "Launch LastOccurance",
             "request": "launch",
             "mainClass": "LastOccurance",
