@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SqrtWithPrecision",
+            "request": "launch",
+            "mainClass": "SqrtWithPrecision",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "Launch Anagram",
             "request": "launch",
             "mainClass": "Anagram",
