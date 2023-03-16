@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SearchIn2DArray",
+            "request": "launch",
+            "mainClass": "SearchIn2DArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "SqrtWithPrecision",
             "request": "launch",
             "mainClass": "SqrtWithPrecision",
