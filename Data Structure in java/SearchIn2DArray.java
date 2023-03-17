@@ -101,7 +101,7 @@ public class SearchIn2DArray {
     System.out.println("Printing the element of the 2D Array: ");
     print2DArray(arr, row, col);
     System.out.println("By 1st Type: " + searchInMatrix(arr, row, col, target));
-    System.out.println(
+    System.out.println                                          (
       "By 2nd Type: " + searchInMatrix2(arr, row, col, target)
     );
     sc.close();

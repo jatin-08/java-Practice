@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MountainArray",
+            "request": "launch",
+            "mainClass": "MountainArray",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "SearchIn2DArray",
             "request": "launch",
             "mainClass": "SearchIn2DArray",
