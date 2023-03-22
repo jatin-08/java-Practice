@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KidRaceProblem",
+            "request": "launch",
+            "mainClass": "KidRaceProblem",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "ChocolateProblem",
+            "request": "launch",
+            "mainClass": "ChocolateProblem",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "MountainArray",
             "request": "launch",
             "mainClass": "MountainArray",
