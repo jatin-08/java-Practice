@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PallindromicSubString",
+            "request": "launch",
+            "mainClass": "PallindromicSubString",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "StringToggle",
+            "request": "launch",
+            "mainClass": "StringToggle",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "KidRaceProblem",
             "request": "launch",
             "mainClass": "KidRaceProblem",
