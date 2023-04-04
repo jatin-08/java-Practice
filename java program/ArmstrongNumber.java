@@ -28,12 +28,20 @@ class ArmstrongNumber {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the Number! : ");
     int n = sc.nextInt();
-    int rem, result = 0;
+    int count = 0;
+    int tempnum= n;
+    while (tempnum>0) {
+      // int rem = tempnum%10;
+      count++;
+      tempnum = tempnum/10;
+      
+    }
+    int result = 0;
     int temp;
     temp = n;
     while (temp > 0) {
-      rem = temp % 10;
-      result += rem * rem * rem;
+      int rem = temp % 10;
+      result += (int)Math.pow(rem, count);
       temp /= 10;
     }
     if (result == n) {
