@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IntroToLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.IntroToLinkedList",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "PallindromicSubString",
             "request": "launch",
             "mainClass": "PallindromicSubString",

@@ -18,6 +18,5 @@ public class IntroToLinkedList {
     Node nd3 = new Node(1);
     nd1.next = nd2;
     nd2.next = nd3;
-       
   }
 }
