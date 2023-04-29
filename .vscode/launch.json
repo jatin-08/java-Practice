@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DynamicLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.DynamicLinkedList",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "IntroToLinkedList",
             "request": "launch",
             "mainClass": "LinkedList.IntroToLinkedList",
