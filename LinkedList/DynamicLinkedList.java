@@ -41,6 +41,25 @@ public class DynamicLinkedList {
       tail = temp;
     }
 
+    // Creating an insertAtIndex() -> It will insert the node at the given index in the linked list.
+    void insertAtIndex(int val, int index) {
+      Node t = new Node(val);
+      Node temp = head;
+      if (index == size()) {
+        insertAtEnd(val);
+        return;
+      }
+      if (index == 0) {
+        insertAtStart(val);
+        return;
+      }
+      for (int i = 1; i <= index - 1; i++) {
+        temp = temp.next;
+      }
+      t.next = temp.next;
+      temp.next = t;
+    }
+
     // Creating a display() -> It is used to display the element of the linked list
 
     void display() {
@@ -72,7 +91,10 @@ public class DynamicLinkedList {
     ll.insertAtEnd(5);
     ll.insertAtStart(4);
     ll.insertAtStart(1);
+    ll.insertAtStart(6);
+    ll.insertAtIndex(2, 4);
     ll.display();
     System.out.println("The size of the linked list: " + ll.size());
+    ll.insertAtIndex(10, 0);
   }
 }
