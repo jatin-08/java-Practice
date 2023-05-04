@@ -71,6 +71,32 @@ public class DynamicLinkedList {
       System.out.println();
     }
 
+    // Creating a getElement() -> It will return the element at the given index from the linked list.
+
+    int getElement(int index) {
+      Node temp = head;
+      for (int i = 0; i <= index; i++) {
+        temp = temp.next;
+      }
+      return temp.data;
+    }
+
+    // Creating a deleteAtIndex() -> It will delete the node from the linked list
+
+    void deleteAtIndex(int index) {
+      Node temp = head;
+
+      if (index == 0) {
+        head = head.next;
+        return;
+      }
+      for (int i = 1; i < index; i++) {
+        temp = temp.next;
+      }
+      temp.next = temp.next.next;
+      tail = temp;
+    }
+
     // Creating a size() -> It print the size of the linked list
     int size() {
       int count = 0;
@@ -96,5 +122,11 @@ public class DynamicLinkedList {
     ll.display();
     System.out.println("The size of the linked list: " + ll.size());
     ll.insertAtIndex(10, 0);
+    System.out.println(ll.getElement(2));
+    System.out.println("Printing the linked list before deletion");
+    ll.display();
+    ll.deleteAtIndex(6);
+    System.out.println("Printing the linked list after deletion");
+    ll.display();
   }
 }
