@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Cylinder",
+            "request": "launch",
+            "mainClass": "Cylinder",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Circle",
+            "request": "launch",
+            "mainClass": "Circle",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Stack",
+            "request": "launch",
+            "mainClass": "Stack",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Qe",
+            "request": "launch",
+            "mainClass": "Qe",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
+            "name": "Complex",
+            "request": "launch",
+            "mainClass": "Complex",
+            "projectName": "Java Practice_7740b988"
+        },
+        {
+            "type": "java",
             "name": "LinkedListInterviewQuesetion",
             "request": "launch",
             "mainClass": "LinkedList.LinkedListInterviewQuesetion",
